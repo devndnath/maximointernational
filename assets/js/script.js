@@ -76,6 +76,8 @@ function generateFadingBlocks(containerId, numBlocks) {
     }
 }
 
+
+
 // Generate35 small blocks for the red row
 generateFadingBlocks('redRow', 35);
 
