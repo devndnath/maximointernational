@@ -194,6 +194,16 @@ h6,
         transform: translateY(15px);
         transition: all 0.3s ease;
     }
+    .nav-link {
+    font-family: 'prompt';
+    font-size: 18px;
+    font-weight: 300;
+    color: #101010 !important;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
 
     .nav-item.dropdown:hover .dropdown-menu {
         opacity: 1;
@@ -454,6 +464,14 @@ h6,
     .about-section {
         padding: 40px 0;
     }
+
+    .partner-logo img{
+        width: 80px;
+    }
+    .brand-text img{
+        width: 100px;
+    }
+    
 }
 
 
