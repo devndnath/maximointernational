@@ -137,7 +137,7 @@ h6,
 .btn-custom {
     background-color: var(--primary-orange);
     color: white !important;
-    border-radius: 50px;
+    border-radius: 10px;
     font-family: 'prompt';
     font-weight: 300;
     font-size: 20px;
@@ -477,7 +477,7 @@ h6,
 .block-title {
     font-family: 'prompt';
     font-weight: 600;
-    font-size: 56px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
@@ -707,9 +707,7 @@ font-weight: 300;
 line-height: normal;
 }
 
-.map{
-        transform: scale(0.5);
-    }
+
 
 /* Filter Events */
 .filter-btn {
@@ -742,8 +740,7 @@ footer {
 
 .footer-form {
     background-color: var(--primary-orange);
-    align-items: center;
-    
+    align-items: center;    
     padding: 30px;
     border-radius: 15px;
 }
@@ -824,8 +821,10 @@ align-items: center;
     .btn-custom {
         width: 100%;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 30px;
     }
+
+    
 
     .custom-dropdown {
         box-shadow: none;
@@ -837,13 +836,18 @@ align-items: center;
         background: #fafafa;
     }
 
-    .bottom-curve,
-    .decorative-bg,
-    .decorative-solid {
-        display: none;
-    }
+   
 
     .alibaba-text {
+        margin-top: 10px;
+        margin-bottom: 10px;
         font-size: 2.2rem;
+    }
+    .slogan{
+        font-size: 25px;
+        margin-botom: 20px;
+    }
+    .subtitle{
+        font-size: 15px;
     }
 }

@@ -60,7 +60,7 @@
 }
 
 .block-title {
-    font-size: clamp(1.8rem, 5vw, 3.5rem);
+    font-size: clamp(1.8rem, 2.5vw, 3rem);
     line-height: 1.1;
 }
 
@@ -99,19 +99,20 @@
 @media (min-width: 992px) {
     footer {
         border-radius: 690px 0 0 0;
-        padding-left: 300px;
+        
     }
-    .map{
-        transform: scale(0.7);
+    .footer-text{
+        padding-left: 100px;
+        position: relative;
+        left: 10%;
     }
+    
+   
 
 }
 @media (min-width: 1200px) {
    
-    .map{
-        transform: scale(1);
-    }
-
+ 
 }
 
 
