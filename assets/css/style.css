@@ -16,6 +16,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .hidden {
     display: none;
 }
@@ -39,20 +40,21 @@ h6,
     border-radius: 0px 0px 690px 0px;
     border-bottom: 7px solid #e04f00;
     border-right: 1px solid #e04f00;
-    
+
     overflow: hidden;
 }
+
 /* slider */
 
 
-        /* Background Slider */
-        .myHeroSlider {
-            
-            width: 100%;
-            height: 100%;
-            
-            
-        }       
+/* Background Slider */
+.myHeroSlider {
+
+    width: 100%;
+    height: 100%;
+
+
+}
 
 
 .nav-wrapper {
@@ -75,12 +77,14 @@ h6,
     margin: 0 auto;
     transition: all 0.4s ease;
     border: 1px solid rgba(1, 1, 1, 0.40);
-    
+
 }
+
 .navbar-brand img {
     max-height: 50px;
     width: auto;
 }
+
 .nav-wrapper.is-sticky {
     position: fixed;
     top: 0;
@@ -206,15 +210,16 @@ h6,
         transform: translateY(15px);
         transition: all 0.3s ease;
     }
+
     .nav-link {
-    font-family: 'prompt';
-    font-size: 18px;
-    font-weight: 300;
-    color: #101010 !important;
-    text-transform: uppercase;
-    margin: 0 10px;
-    transition: color 0.3s;
-}
+        font-family: 'prompt';
+        font-size: 18px;
+        font-weight: 300;
+        color: #101010 !important;
+        text-transform: uppercase;
+        margin: 0 10px;
+        transition: color 0.3s;
+    }
 
 
     .nav-item.dropdown:hover .dropdown-menu {
@@ -235,19 +240,18 @@ h6,
 
 /* Hero Content */
 .hero-content {
-    
+
     position: absolute;
     z-index: 10;
     color: white;
     padding-top: 15%;
-    padding-left:10%
-
+    padding-left: 10%
 }
 
 .welcome-text {
     color: #fff;
     font-family: Montserrat;
-    font-size:  clamp(1.2rem, 3vw, 1.8rem); 
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
     font-style: normal;
     font-weight: 300;
     line-height: 120%;
@@ -388,6 +392,7 @@ h6,
     max-width: 700px;
     font-size: 1.1rem;
     line-height: 1.4;
+    font-family: inter;
 }
 
 .expanded-text {
@@ -399,8 +404,13 @@ h6,
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .bars-container {
@@ -480,13 +490,14 @@ h6,
         padding: 40px 0;
     }
 
-    .partner-logo img{
+    .partner-logo img {
         width: 80px;
     }
-    .brand-text img{
+
+    .brand-text img {
         width: 100px;
     }
-    
+
 }
 
 
@@ -505,6 +516,7 @@ h6,
 
 .content-details {
     padding-left: 94px;
+    font-family: inter;
 }
 
 .block-title {
@@ -592,7 +604,8 @@ h6,
     line-height: normal;
 
 }
-.service-card-details{
+
+.service-card-details {
     font-size: 12px;
 }
 
@@ -609,11 +622,12 @@ h6,
 }
 
 /* Counters & Map */
-g:hover{
+g:hover {
     transform: scale(1.01);
     transition: 1s;
     border: 1px solid var(--primary-orange);
 }
+
 .counter-box {
     text-align: center;
     margin-bottom: 20px;
@@ -633,21 +647,22 @@ g:hover{
 
 .counter-num {
     color: #626262;
-text-align: center;
-font-family: Prompt;
-font-size: 30px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Prompt;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.text-muted{
+
+.text-muted {
     color: #626262;
-text-align: center;
-font-family: Prompt;
-font-size: 30px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Prompt;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .map-img {
@@ -661,22 +676,22 @@ line-height: normal;
 .stat-small {
     color: #000;
     font-family: Raleway;
-text-align: center;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: -4px;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -4px;
 }
 
-.text-muted-small{
+.text-muted-small {
     color: #000;
-text-align: center;
-font-family: Raleway;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* Video Block */
@@ -685,6 +700,15 @@ line-height: normal;
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
+}
+
+.video-title {
+    color: #010101;
+    font-family: Raleway;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .video-overlay {
@@ -716,31 +740,40 @@ line-height: normal;
     transform: scale(1.1);
 }
 
-.video-details{
+.video-details {
 
-    color:  #010101;
-text-align: justify;
-font-family: Inter;
-font-size: 36px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    color: #010101;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 
 
 }
 
-.video-details{
+.video-details {
 
-    color:  #010101;
-text-align: justify;
-font-family: Inter;
-font-size: 36px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    color: #010101;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 
+.training-details {
+    color: #010101;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
 
 /* Filter Events */
 .filter-btn {
@@ -773,7 +806,7 @@ footer {
 
 .footer-form {
     background-color: var(--primary-orange);
-    align-items: center;    
+    align-items: center;
     padding: 30px;
     border-radius: 15px;
 }
@@ -799,8 +832,8 @@ footer {
     background: #333;
     color: white;
     justify-content: center;
-align-items: center;
-    
+    align-items: center;
+
     border-radius: 50px;
     padding: 10px 28px;
     font-weight: bold;
@@ -857,7 +890,7 @@ align-items: center;
         margin-top: 30px;
     }
 
-    
+
 
     .custom-dropdown {
         box-shadow: none;
@@ -869,18 +902,20 @@ align-items: center;
         background: #fafafa;
     }
 
-   
+
 
     .alibaba-text {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 2.2rem;
     }
-    .slogan{
+
+    .slogan {
         font-size: 25px;
         margin-botom: 20px;
     }
-    .subtitle{
+
+    .subtitle {
         font-size: 15px;
     }
 }

@@ -19,6 +19,7 @@
     .welcome-text{
         font-size: 40px;
     }
+   
     
 }
 
@@ -183,11 +184,23 @@
 
 @media (min-width: 576px) {
     .live-chat span { display: inline; }
+    .video-title{
+        font-size: 1.5rem;
+    }
+    .video-details{
+        font-size: 1.8rem;
+    }
+    .training-details {
+   
+    font-size: 20px;
+   
+}
 
 }
 @media (max-width: 576px) {
     .container{
-        padding:20px
+        padding:40px
     }
+   
     
 }
