@@ -73,7 +73,7 @@ h6,
     border-radius: 20px;
     padding: 10px 40px;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.40);
-    max-width: 80%;
+    
     margin: 0 auto;
     transition: all 0.4s ease;
     border: 1px solid rgba(1, 1, 1, 0.40);
@@ -244,8 +244,8 @@ h6,
     position: absolute;
     z-index: 10;
     color: white;
-    padding-top: 15%;
-    padding-left: 10%
+    padding-top: 13%;
+    
 }
 
 .welcome-text {
@@ -533,6 +533,7 @@ h6,
 
 .block-subtitle {
     color: var(--Secondary-color, #010101);
+    font-family: inter;
     font-size: 36px;
     font-style: italic;
     font-weight: 600;
@@ -558,6 +559,7 @@ h6,
     margin-bottom: 10px;
     font-size: 0.9rem;
     font-weight: 400;
+    font-family: inter;
 }
 
 .custom-list li i {
@@ -565,6 +567,7 @@ h6,
     left: 0;
     top: 4px;
     color: var(--primary-orange);
+    
     font-size: 1.1rem;
 }
 
