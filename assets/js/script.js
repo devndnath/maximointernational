@@ -1,4 +1,26 @@
 
+
+const swiper = new Swiper('.myHeroSlider', {
+  loop: true,
+  effect: 'fade', // Fade is more professional for fixed text
+  fadeEffect: { crossFade: true },
+  speed: 1500, // Smooth transition speed
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  keyboard: {
+    enabled: true, // Enables Arrow Key control
+  },
+});
 $(document).ready(function () {
 
     // Sticky Navbar
@@ -116,6 +138,12 @@ generateFadingBlocks('redRow6', 35);
 
 // Generate 35 slightly wider small blocks for the orange row for news
 generateFadingBlocks('orangeRow6', 35);
+
+// Generate 35 small blocks for the red row for JOin our team
+generateFadingBlocks('redRow7', 35);
+
+// Generate 35 slightly wider small blocks for the orange row for join our team
+generateFadingBlocks('orangeRow7', 35);
 
 function whoContent() {
     const moreText = document.getElementById("who-more-content");

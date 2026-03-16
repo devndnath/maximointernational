@@ -4,6 +4,8 @@
     --text-dark: #212529;
     --card-bg: #F6F5F4;
     --Core-Color: #FF1818;
+    --swiper-navigation-color: #ff6600;
+    --swiper-pagination-color: #ff6600;
 }
 
 body {
@@ -30,10 +32,57 @@ h6,
 }
 
 /* ================= NAVBAR & HERO ================= */
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    border-radius: 0px 0px 690px 0px;
+    border-bottom: 7px solid #e04f00;
+    border-right: 1px solid #e04f00;
+    
+    overflow: hidden;
+}
+/* slider */
 
+
+        /* Background Slider */
+        .myHeroSlider {
+            
+            width: 100%;
+            height: 100%;
+            
+            
+        }
+
+        
+
+        /* Customizing Swiper Elements */
+    
+
+        /* .swiper-button-next,
+        .swiper-button-prev {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            transition: 0.3s ease;
+        }
+
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+            background: #ff6600;
+            color: white !important;
+        } */
 
 .nav-wrapper {
-    font-family: 'prom';
+    font-family: 'prompt';
     position: absolute;
     top: 20px;
     left: 0;
@@ -212,10 +261,13 @@ h6,
 
 /* Hero Content */
 .hero-content {
-    position: relative;
+    
+    position: absolute;
     z-index: 10;
     color: white;
-    padding-top: 100px;
+    width: 70%;
+    padding: 12% 0% 0% 10%;
+
 }
 
 .welcome-text {
